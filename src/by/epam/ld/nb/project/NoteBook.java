@@ -1,26 +1,27 @@
-package project;
+package by.epam.ld.nb.project;
 
-import helpers.Note;
+import by.epam.ld.nb.helpers.Note;
 
 import java.time.LocalDate;
 import java.util.ArrayList;
 
-public class HabitTracker {
-    private ArrayList<Note> habitTracker;
+public class NoteBook {
+
+    private ArrayList<Note> noteBook;
     private Note note;
 
-    public HabitTracker() {
-        habitTracker = new ArrayList<Note>();
+    public NoteBook() {
+        noteBook = new ArrayList<Note>();
     }
 
     public void add(Note note) {
         this.note = note;
-        habitTracker.add(note);
+        noteBook.add(note);
     }
 
     public String findByContext(String context) {
         StringBuffer buffer = new StringBuffer("");
-        habitTracker.forEach(note -> {
+        noteBook.forEach(note -> {
             if (note.getContext().equals(context))
                 buffer.append(note.toString());
         });
@@ -30,7 +31,7 @@ public class HabitTracker {
 
     public String findByDate(LocalDate date) {
         StringBuffer buffer = new StringBuffer("");
-        habitTracker.forEach(note -> {
+        noteBook.forEach(note -> {
             if (note.getDate().equals(date)) {
                 buffer.append(note.toString());
             }
@@ -40,7 +41,7 @@ public class HabitTracker {
 
     @Override
     public String toString() {
-        return habitTracker.toString();
+        return noteBook.toString();
     }
 
 }

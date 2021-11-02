@@ -1,6 +1,7 @@
-package helpers;
+package by.epam.ld.nb.helpers;
 
 public class Task {
+
     private String task;
     private String answer;
 

@@ -1,4 +1,4 @@
-package helpers;
+package by.epam.ld.nb.helpers;
 
 import java.time.LocalDate;
 
@@ -8,10 +8,6 @@ public class Note {
     private LocalDate date;
     private String subject;
     private String context;
-
-    public Note(){
-
-    }
 
     public Note(LocalDate date, int id, String subject, String context){
         this.date = date;

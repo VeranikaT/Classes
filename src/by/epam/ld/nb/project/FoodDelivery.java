@@ -1,16 +1,16 @@
-package project;
+package by.epam.ld.nb.project;
 
-import helpers.Item;
-import helpers.JournalNote;
+import by.epam.ld.nb.helpers.Item;
+import by.epam.ld.nb.helpers.JournalNote;
 
 import java.time.LocalDate;
-import java.util.ArrayList;
+import java.util.List;
 
 public class FoodDelivery {
 
     private Item item;
     private LocalDate time;
-    private ArrayList<Item> food;
+    private List<Item> food;
 
     public FoodDelivery(){
 
@@ -52,7 +52,7 @@ public class FoodDelivery {
         }
     }
 
-    public void cancel(ArrayList<Item> food){
+    public void cancel(List<Item> food){
         this.food = food;
         food.removeAll(food);
     }

@@ -1,18 +1,15 @@
-package project;
+package by.epam.ld.nb.project;
 
-import helpers.Task;
+import by.epam.ld.nb.helpers.Task;
 
 import java.util.ArrayList;
 
 public class TestSystem {
+
     private String examSubject;
     private ArrayList<Task> taskList;
 
-    public TestSystem(){
-
-    }
-
-    public TestSystem(String examSubject, ArrayList<Task> taskList){
+    public TestSystem(String examSubject, ArrayList<Task> taskList) {
         this.examSubject = examSubject;
         this.taskList = taskList;
 

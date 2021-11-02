@@ -1,7 +1,7 @@
-package project;
+package by.epam.ld.nb.project;
 
-import helpers.JournalNote;
-import helpers.Note;
+import by.epam.ld.nb.helpers.JournalNote;
+import by.epam.ld.nb.helpers.Note;
 
 import java.time.LocalDate;
 import java.util.ArrayList;
@@ -57,6 +57,5 @@ public class ElectronicJournal {
     public String toString() {
         return "Date:"+date+"\nSubject:"+subject+"\nJournal context:\n"+electronicJournal.toString();
     }
-
 
 }

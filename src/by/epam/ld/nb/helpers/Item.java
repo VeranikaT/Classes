@@ -1,14 +1,11 @@
-package helpers;
+package by.epam.ld.nb.helpers;
 
 public class Item {
+
     private String item;
     private int price;
 
-    public Item(){
-
-    }
-
-    public Item(String item, int price){
+    public Item(String item, int price) {
         this.item = item;
         this.price = price;
     }

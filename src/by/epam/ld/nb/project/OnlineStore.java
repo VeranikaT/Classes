@@ -1,6 +1,6 @@
-package project;
+package by.epam.ld.nb.project;
 
-import helpers.Item;
+import by.epam.ld.nb.helpers.Item;
 
 import java.time.LocalDate;
 import java.util.ArrayList;
@@ -10,10 +10,6 @@ public class OnlineStore {
     private Item item;
     private LocalDate time;
     private ArrayList<Item> order;
-
-    public OnlineStore(){
-
-    }
 
     public OnlineStore(Item item){
         this.item = item;

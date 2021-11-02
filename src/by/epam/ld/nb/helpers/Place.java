@@ -1,15 +1,12 @@
-package helpers;
+package by.epam.ld.nb.helpers;
 
 public class Place {
+
     int persons;
     int rooms;
     String comment;
 
-    public Place(){
-
-    }
-
-    public Place(int persons, int rooms, String comment){
+    public Place(int persons, int rooms, String comment) {
         this.persons = persons;
         this.rooms = rooms;
         this.comment = comment;

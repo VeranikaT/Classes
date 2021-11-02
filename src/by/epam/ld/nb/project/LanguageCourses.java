@@ -1,10 +1,11 @@
-package project;
+package by.epam.ld.nb.project;
 
-import helpers.Course;
+import by.epam.ld.nb.helpers.Course;
 
 import java.time.LocalDate;
 
 public class LanguageCourses {
+
     private LocalDate dateStart;
     private LocalDate dateFinish;
     private String teacher;

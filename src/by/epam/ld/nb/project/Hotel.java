@@ -1,6 +1,6 @@
-package project;
+package by.epam.ld.nb.project;
 
-import helpers.Place;
+import by.epam.ld.nb.helpers.Place;
 
 import java.time.LocalDate;
 import java.util.ArrayList;

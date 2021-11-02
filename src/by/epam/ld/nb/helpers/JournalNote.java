@@ -1,15 +1,11 @@
-package helpers;
+package by.epam.ld.nb.helpers;
 
 public class JournalNote {
 
     private int id;
     private String context;
 
-    public JournalNote(){
-
-    }
-
-    public JournalNote(int id, String context){
+    public JournalNote(int id, String context) {
         this.id = id;
         this.context = context;
     }
